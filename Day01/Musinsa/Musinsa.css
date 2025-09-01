@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    
+    
+
+}
+.musinsa{
+    width: 100px;
+    text-align: center;
+    margin-right: 50px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 99999px;
+    object-fit: cover;
+    border: 2px solid red;
+}
