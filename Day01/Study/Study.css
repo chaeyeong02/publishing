@@ -1,13 +1,12 @@
 .container{
-    display: flex;
-    
-    
+    display : flex;
 
 }
-.Musinsa{
-    width: 100px;
+.study{
+    width :100px;
     text-align: center;
     margin-right: 50px;
+    
 }
 .image{
     width: 100px;
@@ -16,3 +15,4 @@
     object-fit: cover;
     border: 2px solid red;
 }
+

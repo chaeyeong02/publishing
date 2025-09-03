@@ -1,0 +1,101 @@
+section {
+    padding: 20px;
+    background-color: #f7f8fb;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.title > h2 {
+    font-size: 56px;
+    font-weight: 700;
+    color: black;
+}
+
+.title > span{
+    color: #0066cc;
+    
+}
+.title > span:hover{
+    text-decoration: none;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+
+.products > .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products > .phone > picture{
+    transition: all 0,5s;
+}
+.products > .phone picture:hover{
+    
+
+}
+.products > .phone > .colors{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+.products > .phone > .colors > .circle{
+    width: 11px;
+    height: 11px;
+    border-radius: 99999px;
+}
+.brown{
+    background-color: #bfa48f;
+}
+.titanum{
+    background-color: #c2bcb2;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.products > .iphone > .name {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1d1d1f;
+}
+.products > .iphone > .sub {
+    color: #1d1d1f;
+    margin-top: 30px;
+}
+.products > .iphone > .price {
+    color: #1d1d1f;
+     margin-top: 30px;
+}
+.products > .phone > .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.products > .phone > .buttons > .more {
+    border: none;
+    color: white;
+    background-color: #0066cc;    
+    border-radius: 30px;
+    padding: 11px 21px;
+    font-size:  17px;
+}
+.products > .phone > .buttons > .purchase {
+    border: none;
+    padding: 11px 21px;
+    color: #0066cc;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 17px;
+}

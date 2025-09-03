@@ -1,0 +1,38 @@
+.button {
+
+    width: 600px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.button > span {
+    position: relative;
+    z-index: 2;
+    font-weight: 600;
+    transition: all 0,3;
+}
+.button:hover > span {
+    color: white;
+
+}
+.button > .screen{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    transition: all 0,3s;
+    z-index: 1;
+}
+.button:hover > .screen {
+   left: 0;
+}
