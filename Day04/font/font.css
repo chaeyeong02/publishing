@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PerpetualSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2508-2@1.0/PermanentSnow.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'PerpetualSnow';
+}

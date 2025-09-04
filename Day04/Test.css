@@ -1,0 +1,77 @@
+.menu {
+    padding: 100px 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.menu > .beverage {
+    border: 1px solid #dddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 80px;
+    position: relative;
+}
+.menu > .beverage > .border {
+    border: 4px solid rgb(255, 91, 40);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.menu > .beverage > .border:hover {
+    opacity: 1;
+}
+.fourth{
+    position:relative
+}
+.beverage > .info {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100;
+    background-color: white;
+    opacity: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.menu > .beverage > .new {
+    color: white;
+    background-color: rgb(255, 91, 40);
+    border-radius: 99999px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+.menu > .beverage > picture {
+    transition: all 0.3s;
+}
+.menu > .beverage > picture:hover {
+    transform: scale(1.05);
+}
+.menu > .beverage > .temperature{
+    margin-top : 20px;
+}
+.menu > .beverage > .temperature > .ice {
+    width: 10px;
+    height: 10px;
+    border-radius: 99999px;
+    background-color: skyblue;
+ 
+}
+.menu > .beverage > .name {
+    margin-top: 20px;
+    font-size: 14px;
+}
