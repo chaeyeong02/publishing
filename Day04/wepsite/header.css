@@ -16,6 +16,9 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
 }
+nav > .logo{
+    width: 100px;
+}
 .link > button {
     border: none;
     border-radius: 30px;
