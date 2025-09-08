@@ -1,0 +1,16 @@
+header {
+    width: 1600px; 
+    height: 80px;
+    margin: 0px auto;
+    background-color: skyblue;
+}
+header > section {
+    width: 100%;
+    max-width: 1220px;
+    background-color: skyblue;
+
+    display: flex;
+    justify-content: row;
+    align-items:center;
+    
+}
